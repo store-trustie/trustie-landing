@@ -38,15 +38,15 @@ const plans = [
 
 export default function Pricing() {
   return (
-    <section id="pricing" className="max-w-5xl mx-auto px-5 my-32">
+    <section id="pricing" className="landing-section">
       <div className="text-center mb-16">
-        <div className="inline-block bg-[#F3F4F6] text-[#4B5563] text-sm font-semibold px-4 py-1.5 rounded-full mb-4">
-          Pricing
+        <div className="feature-badge mb-4">
+          <span>Pricing</span>
         </div>
-        <h2 className="text-3xl md:text-5xl font-bold text-[#111] tracking-tight mb-4">
+        <h2 className="section-heading mb-4">
           Simple, transparent pricing
         </h2>
-        <p className="text-[#6B7280] text-lg max-w-2xl mx-auto">
+        <p className="section-subheading max-w-2xl mx-auto">
           No hidden fees. Pick the plan that suits you best and upgrade anytime.
         </p>
       </div>

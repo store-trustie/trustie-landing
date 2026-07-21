@@ -10,10 +10,13 @@ export async function POST(request) {
 
     const apiKey = process.env.BREVO_API_KEY;
     const senderEmail = process.env.BREVO_LANDING_PAGE_SENDER_EMAIL || "hello@trustie.store";
-    const recipientEmail = "store.trustie@gmail.com"; // This is where you want to receive the form submissions
-    
-    if (!apiKey) {
-      `
+    const recipientEmail = "store.trustie@gmail.com";
+
+    const payload = {
+      sender: { name, email: senderEmail },
+      to: [{ email: recipientEmail }],
+      subject: `New Contact Form Submission from ${name}`,
+      htmlContent: `<p><strong>Name:</strong> ${name}</p><p><strong>Email:</strong> ${email}</p><p><strong>Message:</strong> ${message}</p>`
     };
 
     if (apiKey) {
