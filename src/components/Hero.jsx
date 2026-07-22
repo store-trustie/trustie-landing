@@ -95,7 +95,7 @@ export default function Hero() {
 
         {/* --- ARC 1 (TOP PAIR): Reversed Rotations --- */}
         {/* Left Top: Coupon Card */}
-        <div className="absolute top-[0%] sm:top-[0%] md:top-[0%] left-[-2%] sm:left-[-6%] md:left-[-5%] lg:left-[-2%] xl:left-[0%] w-24 sm:w-44 md:w-64 lg:w-72 floating-card rotate-[8deg] animate-hero-float block z-30">
+        <div className="absolute top-[0%] sm:top-[0%] md:top-[0%] left-[-2%] sm:left-[-6%] md:left-[-5%] lg:left-[-2%] xl:left-[0%] w-24 sm:w-44 md:w-64 lg:w-72 floating-card rotate-[8deg] animate-hero-float block z-20">
           <img
             src="/assets/Coupon card.png"
             alt="Coupon Code Conversions"
@@ -103,7 +103,7 @@ export default function Hero() {
           />
         </div>
         {/* Right Top: Mail Card */}
-        <div className="absolute top-[0%] sm:top-[0%] md:top-[0%] right-[-2%] sm:right-[-6%] md:right-[-5%] lg:right-[-2%] xl:right-[0%] w-24 sm:w-44 md:w-64 lg:w-72 floating-card -rotate-[8deg] animate-hero-float-delay-1 block z-30">
+        <div className="absolute top-[0%] sm:top-[0%] md:top-[0%] right-[-2%] sm:right-[-6%] md:right-[-5%] lg:right-[-2%] xl:right-[0%] w-24 sm:w-44 md:w-64 lg:w-72 floating-card -rotate-[8deg] animate-hero-float-delay-1 block z-20">
           <img
             src="/assets/Mail card.png"
             alt="Direct Click Conversions"
@@ -113,7 +113,7 @@ export default function Hero() {
 
         {/* --- ARC 2 (MID-HIGH PAIR): -rotate-[6deg] / rotate-[6deg] --- */}
         {/* Left Mid: Attributed Revenue Card */}
-        <div className="absolute top-[12%] sm:top-[16%] md:top-[20%] left-[-4%] sm:left-[-8%] md:left-[-7%] lg:left-[-4%] xl:left-[-2%] w-24 sm:w-44 md:w-64 lg:w-72 floating-card animate-hero-float-delay-1 block z-30">
+        <div className="absolute top-[12%] sm:top-[16%] md:top-[20%] left-[-4%] sm:left-[-8%] md:left-[-7%] lg:left-[-4%] xl:left-[-2%] w-24 sm:w-44 md:w-64 lg:w-72 floating-card animate-hero-float-delay-1 block z-20">
           <img
             src="/assets/Attributed revenıue card.png"
             alt="Attributed Revenue"
@@ -121,7 +121,7 @@ export default function Hero() {
           />
         </div>
         {/* Right Mid: Review Request Conversions Card */}
-        <div className="absolute top-[12%] sm:top-[16%] md:top-[20%] right-[-4%] sm:right-[-8%] md:right-[-7%] lg:right-[-4%] xl:right-[-2%] w-24 sm:w-44 md:w-64 lg:w-72 floating-card animate-hero-float-delay-2 block z-30">
+        <div className="absolute top-[12%] sm:top-[16%] md:top-[20%] right-[-4%] sm:right-[-8%] md:right-[-7%] lg:right-[-4%] xl:right-[-2%] w-24 sm:w-44 md:w-64 lg:w-72 floating-card animate-hero-float-delay-2 block z-20">
           <img
             src="/assets/Review Request Conversions Card.png"
             alt="Review Request Conversions"
@@ -131,7 +131,7 @@ export default function Hero() {
 
         {/* --- ARC 3 (MID-LOW PAIR): -rotate-[10deg] / rotate-[10deg] --- */}
         {/* Left Low: Rating Card */}
-        <div className="absolute top-[30%] sm:top-[34%] md:top-[auto] md:bottom-[18%] left-[-5%] sm:left-[-10%] md:left-[-12%] lg:left-[-8%] xl:left-[-5%] w-28 sm:w-52 md:w-76 lg:w-84 floating-card -rotate-[10deg] animate-hero-float-delay-2 block z-30">
+        <div className="absolute top-[30%] sm:top-[34%] md:top-[auto] md:bottom-[18%] left-[-5%] sm:left-[-10%] md:left-[-12%] lg:left-[-8%] xl:left-[-5%] w-28 sm:w-52 md:w-76 lg:w-84 floating-card -rotate-[10deg] animate-hero-float-delay-2 block z-20">
           <img
             src="/assets/Rating card.png"
             alt="Rating Overview"
@@ -139,7 +139,7 @@ export default function Hero() {
           />
         </div>
         {/* Right Low: Review Widget */}
-        <div className="absolute top-[28%] sm:top-[32%] md:top-[auto] md:bottom-[12%] right-[-6%] sm:right-[-14%] md:right-[-18%] lg:right-[-14%] xl:right-[-10%] w-32 sm:w-60 md:w-84 lg:w-96 floating-card rotate-[10deg] animate-hero-float block z-30">
+        <div className="absolute top-[28%] sm:top-[32%] md:top-[auto] md:bottom-[12%] right-[-6%] sm:right-[-14%] md:right-[-18%] lg:right-[-14%] xl:right-[-10%] w-32 sm:w-60 md:w-84 lg:w-96 floating-card rotate-[10deg] animate-hero-float block z-20">
           <img
             src="/assets/Review Widget.png"
             alt="Customer Review Card"
@@ -149,7 +149,7 @@ export default function Hero() {
 
         {/* --- ARC 4 (BOTTOM PAIR): -rotate-[6deg] / rotate-[6deg] --- */}
         {/* Left Bottom: Import AliExpress Icon */}
-        <div className="absolute top-[48%] sm:top-[50%] md:top-[auto] md:bottom-[2%] left-[4%] sm:left-[4%] md:left-[8%] lg:left-[10%] xl:left-[12%] w-10 sm:w-16 md:w-24 lg:w-28 floating-card -rotate-[6deg] animate-hero-float-delay-3 block z-30">
+        <div className="absolute top-[48%] sm:top-[50%] md:top-[auto] md:bottom-[2%] left-[4%] sm:left-[4%] md:left-[8%] lg:left-[10%] xl:left-[12%] w-10 sm:w-16 md:w-24 lg:w-28 floating-card -rotate-[6deg] animate-hero-float-delay-3 block z-20">
           <img
             src="/assets/Import from ali express.png"
             alt="Import from AliExpress"
@@ -157,7 +157,7 @@ export default function Hero() {
           />
         </div>
         {/* Right Bottom: Stars Widget */}
-        <div className="absolute top-[48%] sm:top-[50%] md:top-[auto] md:bottom-[2%] right-[3%] sm:right-[4%] md:right-[6%] lg:right-[8%] xl:right-[10%] w-24 sm:w-44 md:w-64 lg:w-72 floating-card rotate-[6deg] animate-hero-float-delay-3 block z-30">
+        <div className="absolute top-[48%] sm:top-[50%] md:top-[auto] md:bottom-[2%] right-[3%] sm:right-[4%] md:right-[6%] lg:right-[8%] xl:right-[10%] w-24 sm:w-44 md:w-64 lg:w-72 floating-card rotate-[6deg] animate-hero-float-delay-3 block z-20">
           <img
             src="/assets/Stars Widget.png"
             alt="Star Ratings Overview"
@@ -166,7 +166,7 @@ export default function Hero() {
         </div>
 
         {/* --- CENTRAL MAIN SHOWCASE WIDGET (ANIMATED SHOWCASE LOOP) --- */}
-        <div className="main-widget-container relative z-20 hover:z-50 max-w-[720px] md:max-w-[800px] lg:max-w-[860px] w-full px-2 scale-[0.85] translate-y-[0px] md:translate-y-[-10px]">
+        <div className="main-widget-container relative z-40 max-w-[720px] md:max-w-[800px] lg:max-w-[860px] w-full px-2 scale-[0.85] translate-y-[0px] md:translate-y-[-10px]">
           <AnimatedCentralWidget />
         </div>
 
