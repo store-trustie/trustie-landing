@@ -83,7 +83,7 @@ export default function Footer() {
           </div>
 
           {/* Right Column: Contact Form */}
-          <div className="lg:col-span-6 bg-white border border-slate-200/80 rounded-3xl p-6 sm:p-8 shadow-[0_4px_20px_rgba(0,0,0,0.02)]">
+          <div className="lg:col-span-6">
             <h3 className="text-2xl font-bold text-[#0F172A] mb-2">Get in touch</h3>
             <p className="text-[#64748B] text-sm mb-6">Have a question? Drop us a message below.</p>
 
