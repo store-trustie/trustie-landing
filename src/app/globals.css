@@ -422,3 +422,21 @@ body {
   transform: translateY(-2px);
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
 }
+
+/* Footer Design System */
+.footer-container {
+  background-color: var(--background);
+  border-top: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.footer-link {
+  color: #64748B;
+  font-size: 15px;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+  color: var(--primary);
+}
+

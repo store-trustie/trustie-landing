@@ -6,7 +6,7 @@ const plans = [
   {
     name: "Free Plan",
     price: "$0",
-    description: "Yeni başlayan mağazalar için temel özellikler.",
+    description: "Essential features for growing stores.",
     features: [
       { name: "50 Review Imports / month", included: true },
       { name: "Basic Review Widgets", included: true },
@@ -22,7 +22,7 @@ const plans = [
     name: "Pro Plan",
     price: "$9.99",
     period: "/mo",
-    description: "Satışlarını otomatize edip güven inşa etmek isteyenler için.",
+    description: "For stores looking to automate sales and build trust.",
     features: [
       { name: "Unlimited Review Imports", included: true },
       { name: "All Premium Widgets", included: true },
