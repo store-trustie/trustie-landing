@@ -115,7 +115,7 @@ export default function Hero() {
         {/* Left Mid: Attributed Revenue Card */}
         <div className="absolute top-[12%] sm:top-[16%] md:top-[20%] left-[-4%] sm:left-[-8%] md:left-[-7%] lg:left-[-4%] xl:left-[-2%] w-24 sm:w-44 md:w-64 lg:w-72 floating-card animate-hero-float-delay-1 block z-20">
           <img
-            src="/assets/Attributed revenıue card.png"
+            src="/assets/Attributed revenue card.png"
             alt="Attributed Revenue"
             className="w-full h-auto object-contain select-none"
           />

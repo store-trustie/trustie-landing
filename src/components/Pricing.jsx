@@ -8,7 +8,7 @@ const plans = [
     price: "$0",
     description: "Essential features for growing stores.",
     features: [
-      { name: "50 Review Imports / month", included: true },
+      { name: "15 Review Imports", included: true },
       { name: "Basic Review Widgets", included: true },
       { name: "Manual Review Publishing", included: true },
       { name: "AI Review Generator", included: false },
